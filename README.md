@@ -47,7 +47,7 @@ Basic plugin config settings (if any). Defaults are sufficient for most use case
 
 ## 📂 Project Structure
 
-'''
+```
 FileStorage/
 ├── src/main/java/com/floorplugins/filestorage/
 │   ├── commands/
@@ -66,7 +66,7 @@ FileStorage/
 ├── pom.xml
 ├── LICENSE
 └── README.md
-'''
+```
 
 ---
 
