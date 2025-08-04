@@ -1,0 +1,14 @@
+# Message prefix
+message-prefix: "[FileStorage] "
+message-prefix-color: 0x0088ff
+
+# Message contents
+message-color-normal: 0x888888
+message-color-warning: 0xffff00
+message-color-error: 0xff0000
+
+# Messages
+config-reloaded: "Config reloaded!"
+you-must-be-a-player-to-select-chunks: "You must be a player to select chunks!"
+chunk-selected: "Chunk selected: %"
+wrote-bytes: "Wrote % bytes."

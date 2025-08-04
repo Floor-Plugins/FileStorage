@@ -1,0 +1,20 @@
+name: FileStorage
+version: 0.1.0
+main: com.floorplugins.filestorage.Plugin
+api-version: 1.21
+commands:
+  fsreload:
+    description: Reloads the FileStorage config.
+    permission: filestorage.command.fsreload
+  fswrite:
+    description: Writes a UTF-8 file to the in-game wool-block storage.
+    permission: filestorage.command.fswrite
+  fsread:
+    description: Reads a UTF-8 file from the in-game wool-block storage.
+    permission: filestorage.command.fsread
+  fsselect:
+    description: Selects chunks for hexadecimal storage.
+    permission: filestorage.command.fsselect
+  hexutils:
+    description: Internal HexUtils command for debugging or utility use.
+    permission: filestorage.command.hexutils
